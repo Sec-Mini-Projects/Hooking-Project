@@ -14,9 +14,7 @@ This program will RUN the supplied executable and malicious input file. USE ONLY
 
 ##Usage
 
-Usage: Program.exe with:
-
-"This Prog.exe "<fullpath and name of program> [OPTIONAL]"cmdlineparams"<br>
+Usage: Hooking Parent.exe <fullpath and name of program> [OPTIONAL]"cmdlineparams"<br>
 "Hooking.dll" must exist in the same directory as this executable.
 
 
