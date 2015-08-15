@@ -4,7 +4,7 @@ Created by: Sec-Mini-Projects (2015) under the MIT License - See "LICENSE" for D
 
 ##Description:
 
-Starts the execution of a x86 32 bit **ONLY** vulnerable program with optional command line parameters and hooks a hard coded list of API calls commonly used by shellcode.  It only returns out of the currently hooked api one and checks for shellcode which provides performance benefits.
+Starts the execution of a x86 32 bit **ONLY** vulnerable program with optional command line parameters and hooks a hard coded list of API calls commonly used by shellcode.  It only returns out of the currently hooked api once and checks for shellcode which provides performance benefits.
 
 **I don't claim this program to be 100% stable, but have had few issues.**
 
