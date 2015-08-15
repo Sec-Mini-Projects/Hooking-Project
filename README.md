@@ -15,7 +15,7 @@ This program will RUN the supplied executable and malicious input file. USE ONLY
 ##Usage
 
 Usage: Hooking Parent.exe <fullpath and name of program> [OPTIONAL]"cmdlineparams"<br>
-"Hooking.dll" must exist in the same directory as this executable.
+"Hooking.dll" must exist in the same directory as the "Hooking Parent" executable.
 
 
 ##Compiling & Dependencies
