@@ -1,0 +1,46 @@
+﻿Build started 8/15/2015 3:05:35 PM.
+     1>Project "D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Hooking Parent\Hooking Parent.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Hooking Parent.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Hooking Parent.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Hooking Parent.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Hooking Parent.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Hooking Parent.cpp"
+         Hooking Parent.cpp
+     1>d:\patchesndata\git open source projects\hooking project\easyhook\easyhook.h(37): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h(203) : see previous definition of 'NTDDI_VERSION'
+     1>d:\patchesndata\git open source projects\hooking project\easyhook\easyhook.h(38): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdkddkver.h(197) : see previous definition of '_WIN32_WINNT'
+     1>d:\patchesndata\git open source projects\hooking project\hooking parent\hooking parent\hooking parent.cpp(17): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(498) : see declaration of 'mbstowcs'
+     1>d:\patchesndata\git open source projects\hooking project\hooking parent\hooking parent\hooking parent.cpp(25): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(498) : see declaration of 'mbstowcs'
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\Hooking Parent.res" "Hooking Parent.rc" 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Hooking Parent.exe.embed.manifest.res" "Debug\Hooking Parent_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.exe" /INCREMENTAL /NOLOGO ../../EasyHook/EasyHook32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hooking Parent.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.lib" /MACHINE:X86 "Debug\Hooking Parent.res"
+         "Debug\Hooking Parent.exe.embed.manifest.res"
+         "Debug\Hooking Parent.obj"
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\Hooking Parent.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Hooking Parent.exe.embed.manifest" /manifest "Debug\Hooking Parent.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Hooking Parent.exe.embed.manifest.res" "Debug\Hooking Parent_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.exe" /INCREMENTAL /NOLOGO ../../EasyHook/EasyHook32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hooking Parent.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.lib" /MACHINE:X86 "Debug\Hooking Parent.res"
+         "Debug\Hooking Parent.exe.embed.manifest.res"
+         "Debug\Hooking Parent.obj"
+         Debug\stdafx.obj
+         Hooking Parent.vcxproj -> D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Debug\Hooking Parent.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hooking Parent.unsuccessfulbuild".
+         Touching "Debug\Hooking Parent.lastbuildstate".
+     1>Done Building Project "D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Hooking Parent\Hooking Parent.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

@@ -1,0 +1,38 @@
+﻿Build started 8/15/2015 3:05:25 PM.
+     1>Project "D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Hooking Parent\Hooking Parent.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Hooking Parent.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Hooking Parent.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Hooking Parent.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Hooking Parent.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "Hooking Parent.cpp"
+         Hooking Parent.cpp
+     1>D:\PatchesNData\GIT Open Source Projects\Hooking Project\EasyHook\easyhook.h(37): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(203) : see previous definition of 'NTDDI_VERSION'
+     1>D:\PatchesNData\GIT Open Source Projects\Hooking Project\EasyHook\easyhook.h(38): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(197) : see previous definition of '_WIN32_WINNT'
+     1>Hooking Parent.cpp(17): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : see declaration of 'mbstowcs'
+     1>Hooking Parent.cpp(25): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : see declaration of 'mbstowcs'
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\Hooking Parent.res" "Hooking Parent.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Release\Hooking Parent.exe" /INCREMENTAL:NO /NOLOGO ../../EasyHook/EasyHook32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Hooking Parent.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Release\Hooking Parent.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Release\Hooking Parent.lib" /MACHINE:X86 "Release\Hooking Parent.res"
+         "Release\Hooking Parent.obj"
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         Hooking Parent.vcxproj -> D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Release\Hooking Parent.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Release\Hooking Parent.exe;#1" /manifest "Release\Hooking Parent.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Hooking Parent.unsuccessfulbuild".
+         Touching "Release\Hooking Parent.lastbuildstate".
+     1>Done Building Project "D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking Parent\Hooking Parent\Hooking Parent.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.30

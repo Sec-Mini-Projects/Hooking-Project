@@ -1,0 +1,44 @@
+﻿Build started 8/15/2015 3:01:04 PM.
+     1>Project "D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Hooking\Hooking.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Hooking.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HOOKING_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Hooking.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HOOKING_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>D:\PatchesNData\GIT Open Source Projects\Hooking Project\EasyHook\easyhook.h(37): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(203) : see previous definition of 'NTDDI_VERSION'
+     1>D:\PatchesNData\GIT Open Source Projects\Hooking Project\EasyHook\easyhook.h(38): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(197) : see previous definition of '_WIN32_WINNT'
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HOOKING_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Hooking.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt Hooking.cpp
+         Hooking.cpp
+     1>D:\PatchesNData\GIT Open Source Projects\Hooking Project\EasyHook\easyhook.h(37): warning C4005: 'NTDDI_VERSION' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(203) : see previous definition of 'NTDDI_VERSION'
+     1>D:\PatchesNData\GIT Open Source Projects\Hooking Project\EasyHook\easyhook.h(38): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\SDKDDKVer.h(197) : see previous definition of '_WIN32_WINNT'
+     1>Hooking.cpp(11): warning C4029: declared formal parameter list different from definition
+     1>Hooking.cpp(17): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Hooking.cpp(289): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>Hooking.cpp(367): warning C4047: '!=' : 'unsigned int' differs in levels of indirection from 'void *'
+     1>Hooking.cpp(377): warning C4244: '=' : conversion from 'DWORD' to 'unsigned short', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.dll" /INCREMENTAL:NO /NOLOGO psapi.lib Ws2_32.lib ../../EasyHook/EasyHook32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Hooking.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\Hooking.obj
+         Release\stdafx.obj
+            Creating library D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.lib and object D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.exp
+         Generating code
+         Finished generating code
+         Hooking.vcxproj -> D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Release\Hooking.dll;#2" /manifest Release\Hooking.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Hooking.unsuccessfulbuild".
+         Touching "Release\Hooking.lastbuildstate".
+     1>Done Building Project "D:\PatchesNData\GIT Open Source Projects\Hooking Project\Hooking\Hooking\Hooking.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
