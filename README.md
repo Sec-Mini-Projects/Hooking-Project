@@ -28,5 +28,3 @@ Compile the "Hooking Parent" and "Hooking" solutions and copy "Hooking.dll" from
 
 Both solutions could be combined into one solution and also automate the above but again, these are just hobby projects.
 
-**Example: Place the binaries and ".lib" file in the "<root>\TitanEngine\" folder and the dll into the same directory as the main .EXE**
-
