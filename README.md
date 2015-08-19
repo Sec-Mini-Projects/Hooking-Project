@@ -22,7 +22,7 @@ Usage: Hooking Parent.exe <fullpath and name of program> [OPTIONAL]"cmdlineparam
 
 Compiled & written using Visual Studio 2010.
 
-Compile the latest EasyHook project (https://github.com/EasyHook/EasyHook) which is used as the function hooking engine within this program and all source files and compiled files into the "EasyHook" folder.
+Compile the latest EasyHook project (https://github.com/EasyHook/EasyHook) which is used as the function hooking engine within this program.  Add all EasyHook source (header), library and binary files into the "EasyHook" folder.
 
 Compile the "Hooking Parent" and "Hooking" solutions and copy "Hooking.dll" from the "Hooking" solution into the same directory as the "Hooking Parent" exe.
 
